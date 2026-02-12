@@ -1,0 +1,14 @@
+{
+    "name": "scheduler/backend",
+    "description": "Teacher/Professor Scheduler Backend",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
